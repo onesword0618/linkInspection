@@ -1,0 +1,26 @@
+{
+  "name": "linkinspection",
+  "version": "0.0.1",
+  "description": "<img src=\"docs/assets/logo.png\" width=\"160\" height=\"160\" alt=\"logo\" align=\"right\" />",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onesword0618/linkInspection.git"
+  },
+  "keywords": [],
+  "author": "onesword0618 <ao.akua.leo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onesword0618/linkInspection/issues"
+  },
+  "homepage": "https://github.com/onesword0618/linkInspection#readme",
+  "dependencies": {
+    "undici": "^5.8.2"
+  }
+}
