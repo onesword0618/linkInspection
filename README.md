@@ -14,3 +14,11 @@ Programs to check for broken links.
 [![JavaScript](https://img.shields.io/badge/JavaScript-333333?logo=javascript&logoColor=F7DF1E)](https://www.ecma-international.org/)
 [![Nodejs](https://img.shields.io/badge/Node.js-333333?logo=node.js&logoColor=43853D)](https://nodejs.org/en/about/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-ffffff?logo=typescript&logoColor=3178C6)](https://www.typescriptlang.org/)
+
+## USAGE
+
+Sorry, Not NPM Package.
+
+```
+node index.js
+```
