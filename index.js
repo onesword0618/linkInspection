@@ -1,12 +1,17 @@
+const program = require('commander');
 const undici = require('undici');
+const fs = require('fs');
 
 // main process.
 async function main () {
- const {
-  statusCode
- } = await undici.request('https://www.google.com/');
+   program.parse(process.argv);
+   const text = fs.readFileSync(program.args[0], { encoding: 'utf-8' });
 
- console.log('Status: ', statusCode)
+   const {
+      statusCode
+   } = await undici.request(text);
+
+   console.log('Status: ', statusCode);
 }
 
 main();
