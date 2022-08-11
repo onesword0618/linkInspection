@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/onesword0618/linkInspection#readme",
   "dependencies": {
+    "commander": "^9.4.0",
     "undici": "^5.8.2"
   }
 }

@@ -20,5 +20,5 @@ Programs to check for broken links.
 Sorry, Not NPM Package.
 
 ```
-node index.js
+node index.js ./docs/assets/sample/example.txt
 ```
